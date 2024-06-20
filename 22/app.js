@@ -2,8 +2,8 @@
 // кратное этих чисел.
 
 
-const num_1 = 9;
-const num_2 = 18;
+const num_1 = 6;
+const num_2 = 3;
 
 
 // 1

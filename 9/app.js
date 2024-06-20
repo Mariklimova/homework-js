@@ -2,7 +2,7 @@
 // простым, и false в противном случае.
 
 
-const num = 17;
+const num = 7;
 let check = 0;
 
 // 1

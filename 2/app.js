@@ -1,7 +1,7 @@
 // 2. Напишите функцию, которая принимает строку и возвращает количество гласных в этой 
 // строке.
 
-const str = 'wetetiogbjk';
+const str = 'wetetiogbjk'.toLocaleLowerCase();
 const vowels = 'eouiya';
 let count = 0;
 
