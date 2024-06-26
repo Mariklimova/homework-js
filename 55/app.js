@@ -13,19 +13,24 @@
 
 const n = 5;
 const arrWrapper = [];
-const arrItem = [];
 
 // 1
 const result = () => {
-
-
+    let num = 1;
+    for (let i = 1; i <= n; i++) {
+        const arrItem = [];
+        for (let j = 1; j <= i; j++) {
+            arrItem.push(num);
+            num++;
+        }
+        arrWrapper.push(arrItem);
+    }
+    return arrWrapper
 }
 console.log(result());
 
 
 
-// 2
-const result_2 = () =>
-console.log(result_2());
+
 
 
